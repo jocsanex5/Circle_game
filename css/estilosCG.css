@@ -1,0 +1,136 @@
+*{ 
+    margin: auto; padding: auto; 
+}
+
+body{
+    text-align: center;
+}
+
+#wrapper{
+    width: 100%;
+}
+
+.logo{
+    width: 100px;
+    float: left;
+    margin: auto;
+    position: relative;
+    left: 20px;
+    top: 25px;
+}
+
+#game{
+    border: 2px solid #000;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 2px 2px 4px 1px #00D9FF;
+    margin: auto 20px;
+}
+
+.datos{
+    clear: both;
+    background-color: rgb(72, 226, 253);
+    margin: 20px;
+    box-shadow: 2px 2px 5px 1px rgb(17, 67, 79);
+}
+
+.datos ul{
+    list-style: none;
+}
+
+.datos ul li{
+    display:  inline-block;
+    margin: 10px;
+
+    margin: auto 70px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dat{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vidas, .tiempo, .puntos{
+    font-size: 10px;
+}
+
+    /*Botonoes*/
+.controls{
+    clear: both;
+    width: 100%;
+    visibility: hidden;
+}
+
+.btn{
+    padding: 30px;
+    font-size: 20px;
+    margin: 5px;
+    background: none;
+    border: 2px solid #00BEFF;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    border: 2px solid #38FF00;
+}
+
+.ayuda{
+    margin: auto;
+    padding: 5px;
+    border: 2px solid #ff2600;
+}
+
+.btnsControl{
+    background: none;
+    width: 20%;
+    float: right;
+    margin: 10px;
+
+    transition: all 1s;
+}
+
+.ayuda:hover{
+    transform: rotate(20deg);
+}
+/*
+    Dispositivos moviles
+*/
+
+@media screen and (max-width: 600px){
+
+    #game{
+        width: 100%;
+        margin: 5px auto;
+    }
+
+    .controls{
+        visibility: visible;
+    }
+    
+    #wrapper{
+        width: 100%;
+    }
+    
+    #game{
+        border: 2px solid #000;
+    }
+    
+    .logo{
+        width: 150px;
+        margin: 10px;
+
+        top: auto;
+        left: 10px;
+    }
+    
+    .datos ul li{
+        font-size: 14px;
+    }
+
+    .ayuda{
+        position: relative;
+        top: 15px;
+    }
+}

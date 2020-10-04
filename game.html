@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle Game</title>
+    <link rel="stylesheet" href="css/estilosCG.css">
+    <link rel="shortcut icon" href="recursos/face_enemigo.png" type="image/x-icon">
+</head>
+<body>
+    <div id="wrapper">
+          <img class="logo" src="recursos/logoCG.png" width="100px"/>
+
+          <div class="btnsControl">
+            <!--<button class="ayuda btn" id="help"><img src="recursos/ayuda.png" width="25px"></button>
+
+            <button class="ayuda btn" id="pausa"><img src="recursos/pausa.png" width="25px"></button>-->
+
+            <a href="index.html"><button class="ayuda btn" id="menu"><img src="recursos/menu.png" width="25px"></button></a>
+        </div>
+        
+        <canvas id="game" width="1000px" height="500px"></canvas>
+
+        <div class="datos">
+            <ul>
+                <li class="vidas"><p>Vidas: <span class="dat" id="vidas">--</span></p></i>
+                <li class="puntos"><p>Puntos: <span class="dat" id="puntos">--</span></p></li>
+                <li class="tiempo"><p>Tiempo: <span class="dat" id="tiempo">--</span></p></li>
+            </ul>
+        </div>
+       
+            <div class="controls">
+                <button id="arriba" class="btn">^</button>
+                    <br>
+                <button id="izquierda" class="btn"><</button>
+                <button id="abajo" class="btn">v</button>
+                <button id="derecha" class="btn">></button>
+            </div>
+    </div> 
+    <script src="mainDrawF.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+*{ 
+    margin: auto; 
+    padding: auto; 
+}
+
+body{
+    text-align: center;
+
+    background-image: url(Fondo.png);
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    margin: 20px auto;
+}
+
+.logo{
+    width: 400px;
+    margin: 20px 10px;
+    border-radius: 15px;
+}
+
+.cre{
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #00BEFF;
+    width: 30%;
+    border-radius: 20px;
+    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cre img{
+    margin: 2px;
+    position: relative;
+    top: 0px;
+    transition: all 1s;
+}
+
+.cre img:hover{
+    transform: rotate(360deg);
+}
+
+.cre:hover{
+    border: 5px solid rgb(39, 255, 93);
+}
+
+.play{
+    margin: 15px;
+    padding: 20px 60px;
+    background: none;
+    border: 2px solid #00BEFF;
+    border-radius: 20px;
+
+    color: #fff;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.play:hover{
+    border: 2px solid rgb(255, 174, 0);
+}
+
+.btn{
+    padding: 30px;
+    font-size: 20px;
+    margin: 5px;
+    background: none;
+    border: 2px solid #00BEFF;
+    border-radius: 10px;
+}
+
+aside{
+    background: rgb(181, 16, 16);
+    margin: auto;
+    padding: 10px;
+    width: 40%;
+    position: relative;
+    top: 20px;
+    right: 36%;
+
+    transform: rotate(25deg);
+
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    transition: all 1s;
+}
+
+aside:hover{
+    font-size: 22px;
+    padding: 9PX;
+}
+
+/*
+    Alertas
+*/
+
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+@media screen and ( max-width: 800px ){
+
+    .wrapper{
+        width: 100%;
+        padding: auto;
+    }
+
+    .logo{
+        width: 200px;
+        margin: 40px 20px 10px 20px;
+    }
+
+    .cre{
+        width: 200px;
+        font-size: 14px;
+        padding: auto;
+        margin: 10px
+    }
+
+    .cre img{
+        width: 20px;
+    }
+
+    .play{
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    aside{
+        width: 70%;
+        right:28%;
+    }
+}
