@@ -95,7 +95,11 @@
 
                     '<br>' +
 
-                    '<h3 class="font">Publisher: Ponci</h3>-josefernandovazquez98@gmail.com</p>'
+                    '<h3 class="font">Publisher: Ponci V.</h3> <p>-josefernandovazquez98@gmail.com</p>' +
+
+                    '<br>' +
+
+                    '<h3 class="font">Marketing: Moises C.</h3> <p>-ca2tromoises22@gmail.com</p>'
             })
         });
 
