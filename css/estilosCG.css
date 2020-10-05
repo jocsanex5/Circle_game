@@ -101,8 +101,8 @@ body{
 @media screen and (max-width: 600px){
 
     #game{
-        width: 400px;
-        margin: 5px;
+        width: 420px;
+        margin: 2px;
     }
 
     .controls{
