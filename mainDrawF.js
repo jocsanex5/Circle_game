@@ -116,7 +116,10 @@
                     clearInterval(generarEnemigosC);
                     clearInterval(timeGame);
                     
-                    alert("perdistes");
+                    señal.fire({
+         
+                        html: '<h2 class="font">Ups!!! Te quedaste sin vidas :(</h1>'
+                    })
                 }
             }
         }
